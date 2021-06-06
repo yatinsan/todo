@@ -1,38 +1,122 @@
+body {
+    font-family: sans-serif;
+    background: #1F1D2B;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+    background: #272636;
+    border: none;
+    outline: none;
+    width: 60%;
+    padding: 1px 14px;
+    margin: 2px;
+    font-size: 24px;
+    color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+    margin: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.input {
+    margin: 10px;
+    width: 380px;
+    background: #272636;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input button {
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-size: 25px;
+    float: right;
+    padding: 0px 10px;
 }
+
+.options button {
+    font-size: 20px;
+    padding: 0px 30px;
+}
+
+.options {
+    justify-content: space-between;
+    display: flex;
+}
+
+.oder li {
+    background: rgb(22, 18, 43);
+    color: #ffffff;
+    width: 380px;
+    font-size: 18px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+
+.oder h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.oder input {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.delet {
+    background: none;
+    color: #cf1313;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.error-message {
+    padding: 0px;
+    padding-left: 20px;
+    margin: 5px;
+    color: red;
+}
+
+
+/* ftom aatho */
+
+
+/* 
+.input {
+    background: #272636;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input:hover {
+    border: 2px solid #6F6FC8;
+}
+
+.input:focus {
+    border: 2px solid #6F6FC8;
+} */
