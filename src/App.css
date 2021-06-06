@@ -91,11 +91,23 @@ button {
     padding: 0px;
 }
 
+.check {
+    background: none;
+    color: #cf1313;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
 .error-message {
     padding: 0px;
     padding-left: 20px;
     margin: 5px;
     color: red;
+}
+
+.status {
+    color: greenyellow;
 }
 
 
